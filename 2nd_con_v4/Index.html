@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MIU-convocation</title>
+    <link rel="icon" href="images/Convocation-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<style>
+    #footer p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+
+    }
+
+    #about {
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        background-color: #34A29C;
+    }
+
+    #registration {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: center;
+        background-color: #fff;
+    }
+
+    #registration h5 a {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-size: 18px;
+        padding: 12px 36px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+        display: inline-block;
+        border-radius: 40px;
+
+
+
+    }
+
+    #registration h6 {
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+        font-size: 14px;
+    }
+
+    .reg_con h5 {
+        margin-top: 100px;
+    }
+
+    .down_con h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #000;
+        padding-bottom: 20px;
+    }
+
+    .down_con h3 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    .down_had h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: burlywood;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+
+    .notice {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+        position: left;
+        border: 1px solid #ddd;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        color: #506a85;
+        padding: 0 5px;
+
+    }
+
+    .collapse ul li {
+        position: relative;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .collapse ul li:hover .dropdown {
+        position: absolute;
+        display: block;
+        top: 100%;
+        background-color: #34A29C;
+    }
+
+    .collapse ul li:hover .dropdown ul {
+        display: block;
+        margin: 10px;
+    }
+
+    .collapse ul li:hover .dropdown ul li {
+        width: 100px;
+        padding: 8px;
+
+    }
+
+    .collapse ul li:hover .dropdown ul li a {
+        color: #000;
+    }
+
+    #Contact {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        background-color: #3e3e3e;
+    }
+
+    /*
+    #Contact .container{
+        background-color: #5a5b5e;
+    }
+*/
+    #Notice {
+        background-color: #34A29C;
+    }
+
+    /*
+    #registration .container{
+        background-color: #5a5b5e; 
+    }
+*/
+    #Contact h4 {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .cont_p h6 {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .cont_p p {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    marquee {
+        width: 480px;
+        /*        margin-left: 20px;*/
+        text-transform: uppercase;
+        /*        margin-top: 20px;*/
+        padding: 30px 5px;
+
+    }
+
+    marquee a {
+        color: #f20707 !important;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .navbar-brand img {
+        height: 80px;
+    }
+
+    .reg_logo {
+        height: 100px;
+    }
+
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-control-prev {
+        display: none;
+    }
+
+    .carousel-caption h5 {
+        color: #000;
+    }
+
+    .carousel-item img {
+        height: 750px;
+
+    }
+
+    #Notice {
+        background-color: #34A29C;
+    }
+
+    .pic_img img {
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    #pictuire {
+        background-color: #fff;
+    }
+
+    .carousel-indicators li {
+        transition: opacity 0.2s ease;
+    }
+
+    .cont_p {
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .btto_con h4 {
+        font-size: 20px;
+    }
+
+    .modal-content {
+
+        width: 775px;
+
+    }
+
+    .puspogucho {
+        height: 440px;
+    }
+
+    #Message {
+        padding: 20px 0;
+    }
+
+    #Message h4 {
+        text-align: center;
+        font-size: 30px;
+        color: #000;
+        font-weight: 700;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .gall_item {
+        position: relative;
+    }
+
+
+    .gall_overlay {
+        position: absolute;
+        width: 0;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(#ffd89b, #19547b);
+        opacity: 0;
+        transition: all linear .3s;
+    }
+
+    .gall_item:hover .gall_overlay {
+        opacity: 0.9;
+        width: 100%;
+
+    }
+
+    .gall_con i:hover {
+        color: #C6463D;
+        transition: all linear .3s;
+    }
+
+    .gall_con {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .gall_con i {
+        color: #fff;
+        font-size: 28px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        padding: 0;
+        /*        margin: 15px 0px 10px;*/
+        ;
+    }
+
+    *,
+    *::after,
+    *::before {
+        box-sizing: border-box;
+    }
+
+
+
+    .gall_item {
+        position: relative;
+    }
+
+
+    .gall_overlay {
+        position: absolute;
+        width: 0;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(#ffd89b, #19547b);
+        opacity: 0;
+        transition: all linear .3s;
+    }
+
+    .gall_item:hover .gall_overlay {
+        opacity: 0.9;
+        width: 100%;
+
+    }
+
+    .gall_con i:hover {
+        color: #C6463D;
+        transition: all linear .3s;
+    }
+
+    .gall_con {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .gall_con i {
+        color: #fff;
+        font-size: 28px;
+    }
+
+    #Schedule {
+        background-color: #34A29C;
+        padding: 40px 0;
+    }
+
+    #Schedule h5 a {
+
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-size: 18px;
+        padding: 12px 36px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+        display: inline-block;
+        border-radius: 40px;
+        text-decoration: none;
+
+    }
+
+    #Schedule h5 a:hover {
+        background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+        background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+        color: #000;
+    }
+
+    #Schedule h5 {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .space30 .V_mess {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-size: 18px;
+        padding: 12px 36px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+        display: inline-block;
+        border-radius: 40px;
+        text-align: center;
+    }
+
+    .dule {
+        border: 1px solid #444675;
+        border-radius: 10px;
+        padding: 25px;
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
+        transition-duration: 500ms;
+        margin-bottom: 20px;
+    }
+
+    .dule:hover {
+        border-color: #df42b1;
+    }
+
+    .se_img img {
+        border-radius: 50%;
+        height: 150px;
+        width: 160px;
+    }
+
+    .se_con h6 {
+        margin-top: 40px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    .se_con p {
+        color: #1a1a00;
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+    .se_ic h6 {
+        margin-top: 40px;
+        color: #000;
+        font-size: 18px;
+    }
+
+    .se_ic h6 i {
+
+        color: #800000;
+        font-size: 20px;
+
+    }
+
+    .se_ic p i {
+
+        color: #800000;
+        font-size: 20px;
+
+    }
+
+    .se_ic p {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .se_v {
+        margin-top: 45px;
+    }
+
+    .confer-btn {
+        position: relative;
+        z-index: 1;
+        height: 46px;
+        line-height: 46px;
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        display: inline-block;
+        padding: 0 25px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #ffffff;
+        border-radius: 23px;
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
+        transition-duration: 500ms;
+        overflow: hidden;
+    }
+
+    .confer-btn::before {
+        -webkit-transition-duration: 800ms;
+        -o-transition-duration: 800ms;
+        transition-duration: 800ms;
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        top: -10%;
+        left: -10%;
+        content: '';
+        background: #df42b1;
+        background-image: none;
+        background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+        background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+        z-index: -2;
+    }
+
+    .confer-btn:focus,
+    .confer-btn:hover {
+        font-weight: 500;
+        background-color: #ffffff;
+        color: #111343 !important;
+        -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+        box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+        text-decoration: none;
+    }
+
+    .card-img-top {
+        height: 290px;
+    }
+
+    #gallery h5 {
+        color: #000;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .notice_2 {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+        position: left;
+        border: 1px solid #ddd;
+        height: 740px;
+        width: 440px;
+
+
+    }
+
+    /* Three column layout */
+</style>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/Convocation-logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <marquee scrollamount="4" direction="left">
+                    <a href="https://manarat.ac.bd/wp-content/uploads/2023/07/2nd-Convocation-Notice.pdf" onmouseover="this.parentNode.stop()" onmouseout="this.parentNode.start()">
+                        ৩০ জুলাই, ২০২৩ দ্বিতীয় সমাবর্তন</a> &nbsp; <a href="https://manarat.ac.bd/wp-content/uploads/2023/07/Notice-Graduate-Students-registered-for-2nd-Convocation-of-MIU-to-collect-their-convocation-materials.pdf" onmouseover="this.parentNode.stop()" onmouseout="this.parentNode.start()">
+                        ***REQUESTED TO COLLECT THEIR CONVOCATION MATERIALS
+                    </a>
+                </marquee>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Schedule">Schedule</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Notice</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#registration">REGISTRATION</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--menu part end-->
+
+    <!--banner part end-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/MIU-Convocation12.jpg" class="img-fluid w-100" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/cover.jpg" class="img-fluid w-100" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/MIU-Convocation11.jpg" class="img-fluid w-100" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/MIU-Convocation13.jpg" class="img-fluid w-100" alt="Fore slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--banner part end-->
+
+
+
+    <!--gallery part start-->
+    <section id="gallery">
+        <div class="container">
+            <h5>Speakers</h5>
+            <hr>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="btta">
+                        <img src="images/download (1).jpg">
+                    </div>
+                    <div class="btto_con">
+                        <h4>Md. Abdul Hamid</h4>
+                        <h6>Chancellor</h6>
+                        <p> Honorable President of the People’s Republic of Bangladesh and Honorable Chancellor, Manarat International University (MIU).</p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="btta">
+                        <img src="images/speaker.jpg">
+                    </div>
+                    <div class="btto_con">
+                        <h4>Mr. Md. Atiqul Islam</h4>
+                        <h6>Chairman, BOT, MIU</h6>
+                        <p>Manarat International University is a unique academic institute which has different set of visions. We established MIU in order to provide quality education and instill moral values to the students...</p>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="btta">
+                        <img src="https://convocation.daffodilvarsity.edu.bd/images/message/89776320f3760c5248e194e826c9703b.webp">
+                    </div>
+                    <div class="btto_con">
+                        <h4> Dr. Azad Chowdhury</h4>
+                        <h6>Chairman (State Minister)</h6>
+                        <p>I am very happy to know that Manarat International University is going to hold its 2nd convocation on 30 July 2023.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="btta">
+                        <img src="images/Vice-Chancellor.jpg">
+                    </div>
+                    <div class="btto_con">
+                        <h4>Dr. Md. Nazrul Islam</h4>
+                        <h6>Vice-Chancellor</h6>
+                        <p>Manarat International University (MIU) was established in 2001 with a vision of ensuring international standards in higher education and to produce a future generation with high morals</p>
+                    </div>
+                </div>
+
+            </div>
+            <h5><a target="_blank" href="redmore.html">view more</a></h5>
+        </div>
+    </section>
+    <!--gallery part end-->
+
+    <!--about part start-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="down_con">
+                        <h2 id="days">00</h2>
+                        <h3>DAY</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="down_con">
+                        <h2 id="hours">00</h2>
+                        <h3>HOUR</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="down_con">
+                        <h2 id="minutes">00</h2>
+                        <h3>MINUTES</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="down_con">
+                        <h2 id="seconds">00</h2>
+                        <h3>SECONDS</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==============Message=====================-->
+    <section id="gallery">
+        <div class="container">
+            <div class="space30">
+                <h5><a target="_blank" href="message.html">View All Message</a></h5>
+                <hr>
+                <div class="row team-work">
+                    <div class="col-lg-3  col-md-6 col-sm-4">
+                        <div class="card" tyle="width: 18rem;">
+                            <img class="card-img-top" src="images/Shahabuddin.jpg" class="img-fluid w-100" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Mohammed Shahabuddin</h5>
+                                <p class="card-text">People's Republic of Bangladesh Bangabhaban</p>
+                                <a href="#" class="btn btn-primary">MESSAGES</a>
+                                <!-- start-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 col-sm-4">
+                        <div class="card" tyle="width: 18rem;">
+                            <img class="card-img-top" src="images/Sheik%20Hasina.jpeg" class="img-fluid w-100" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Sheikh Hasina</h5>
+                                <p class="card-text">Government of The People's Republic of Bangladesh</p>
+                                <a href="#" class="btn btn-primary">MESSAGES</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 col-sm-4">
+                        <div class="card" tyle="width: 18rem;">
+                            <img class="card-img-top" src="images/.dipomioni.jpeg" class="img-fluid w-100" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr. Dipu Moni, MP</h5>
+                                <p class="card-text">Government of the People’s Republic of Bangladesh</p>
+                                <a href="#" class="btn btn-primary">MESSAGES</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-4">
+                        <div class="card" tyle="width: 18rem;">
+                            <img class="card-img-top" src="images/Azad.jpeg" class="img-fluid w-100" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr. A. K. Azad Chowdhury</h5>
+                                <p class="card-text">Former Chairman (State Minister)</p>
+                                <a href="#" class="btn btn-primary">MESSAGES</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3  col-md-4 col-sm-4">
+                        <div class="card" tyle="width: 18rem;">
+                            <img class="card-img-top" src="images/Mohibul%20Hassan.jpg" class="img-fluid w-100" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Mohibul Hassan Chowdhury,</h5>
+                                <p class="card-text">Ministry of Education</p>
+                                <a href="#" class="btn btn-primary">MESSAGES</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="registration">
+        <div class="container">
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="images/notic_update.jpg" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="Modal" data-toggle="modal" data-target="#exampleModal">
+                        <img src="images/noboratri-2.jpg" class="img-fluid w-100 puspogucho" alt="">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Puspogucho (Hall 4)</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/venue-map.png" class="img-fluid w-100" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Registration part end-->
+    <!--Event Schedule Start-->
+    <section id="Schedule">
+        <div class="container">
+            <h5>Schedule Plan</h5>
+            <div class="row dule">
+                <div class="col-lg-2">
+                    <div class="se_img">
+                        <img src="images/10.jpg.webp">
+                    </div>
+                </div>
+                <div class="col-lg-4 se_con">
+                    <h6>Guests Take Their Seats</h6>
+                    <p>International Convention City Bashundhara</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="se_ic">
+                        <h6><i class="fa fa-clock"></i> &nbsp;02:00 PM - 02:30 PM</h6>
+                        <p><i class="fa-solid fa-calendar-days"></i> &nbsp; 30 July 2023</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 se_v">
+                    <a class="confer-btn" href="file:///C:/Users/Salman_IT/Desktop/2nd_con_v4/law.html#">View More</a>
+                </div>
+            </div>
+            <div class="row dule">
+                <div class="col-lg-2">
+                    <div class="se_img">
+                        <img src="images/.dipomioni.jpeg" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 se_con">
+                    <h6>Dr. Dipu Moni, MP</h6>
+                    <p>Hon'ble education Minister</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="se_ic">
+                        <h6><i class="fa fa-clock"></i> &nbsp; 02:30 PM - 03:00 PM</h6>
+                        <p><i class="fa-solid fa-calendar-days"></i> &nbsp; 30 July 2023</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 se_v">
+                    <a class="confer-btn" href="file:///C:/Users/Salman_IT/Desktop/2nd_con_v4/law.html#">View More</a>
+                </div>
+            </div>
+            <div class="row dule">
+                <div class="col-lg-2">
+                    <div class="se_img">
+                        <img src="images/Mohibul-Hasan-Chowdhury.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 se_con">
+                    <h6>Mr. Mohibul Hasan Chowdhury, MP</h6>
+                    <p>Distinguished Deputy Minister</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="se_ic">
+                        <h6><i class="fa fa-clock"></i> &nbsp; 03:55 PM - 04:05 PM</h6>
+                        <p><i class="fa-solid fa-calendar-days"></i>&nbsp; 30 July 2023</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 se_v">
+                    <a class="confer-btn" href="file:///C:/Users/Salman_IT/Desktop/2nd_con_v4/law.html#">View More</a>
+                </div>
+            </div>
+            <div class="row dule">
+                <div class="col-lg-2">
+                    <div class="se_img">
+                        <img src="images/atik-vai.jpg" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 se_con">
+                    <h6>Mr. Md. Atiqul Islam</h6>
+                    <p>Chairman of The Board of Trustees</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="se_ic">
+                        <h6><i class="fa fa-clock"></i> &nbsp; 04:05 PM - 04:15 PM</h6>
+                        <p><i class="fa-solid fa-calendar-days"></i> &nbsp; 30 July 2023</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 se_v">
+                    <a class="confer-btn" href="file:///C:/Users/Salman_IT/Desktop/2nd_con_v4/law.html#">View More</a>
+                </div>
+            </div>
+            <h5><a target="_blank" href="SCHEDULE.html">view All</a></h5>
+        </div>
+    </section>
+
+
+    <!--Event Schedule End-->
+    <!--footer part start-->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <h6>2nd Convocation</h6>
+                <p>The 2nd Convocation of Manarat International University (MIU) will be held on 30 JUly this year. The decision was taken at a BOT meeting.</p>
+                <div class="col-lg-6 col-md-6">
+                    <img class="notice" src="images/Notice-2.png">
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <img class="notice_2" src="images/notice_3.jpeg" class="img-fluid w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer part end-->
+    <!--footer part end-->
+    <section id="Notice">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="not_img">
+                        <img src="images/convaction%20banner%202.jpg" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer part end-->
+    <section id="Contact">
+        <div class="container">
+            <h4>Contact</h4>
+            <div class="row">
+                <div class="col-lg-3 col-md-2">
+                    <div class="cont_p">
+                        <h6>For any need</h6>
+                        <p>01912455084 <br>01709126394<br>01780364414<br>01780364415</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-2">
+                    <div class="cont_p">
+                        <h6>Permanent Campus</h6>
+                        <p>Plot # CEN-16, Road # 106<br>Gulshan 2, Dhaka-1212<br>Bangladesh</p>
+                        <p>Ashulia Model Town,<br>Khagan, Ashulia<br> Dhaka</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-2">
+                    <div class="cont_p">
+                        <h6>For IT related Issue</h6>
+                        <p>01406699400</p>
+                        <p>convocation@manarat.ac.bd</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="cont_p">
+                        <h6>For Accaunts Related Issue</h6>
+                        <p>01720624969<br>01795405317</p>
+                        <h6>For Certificate related Issue</h6>
+                        <p>01714366931</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--last part start-->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <div class="last" style="text-align: center">
+                <p>Copyright © 2023 <a target="_blank" href="https://manarat.ac.bd/office-of-the-information-technology/">
+                        IT Department
+                    </a>All Rights Reserved.</p>
+            </div>
+        </div>
+    </nav>
+    <!--////////////////   js    ////////////-->
+    <script>
+        var countDownDate = new Date("July 30, 2023 15:00:00").getTime();
+        var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+
+        }, 1000);
+        //=========end========//
+    </script>
+
+
+    <!--=======js linkup==========-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
